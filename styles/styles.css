@@ -183,17 +183,24 @@ nav ul li{
     display: flex;
     padding: 0 140px;
     gap: 50px;
+    margin-top: 50px;
 }
 
-.play-instant-description{
+.play-instant-content{
     text-align: right;
 
 }
-.play-instant-description h1{
+.play-instant-content h1{
     font-size: 40px;
     font-weight: 700;
 
 }
 .play-instant-img{
     width: 100%;
+    margin-left: 50px;
+}
+.play-instant-img2{
+    position: relative;
+    bottom: 200px;
+    height: 250px;
 }
