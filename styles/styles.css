@@ -37,9 +37,6 @@ border: 0;
     -webkit-text-fill-color: transparent;
 }
 
-.icon-primary{
-    color: #FF42A5;
-}
 
 body{
     font-family: "Work Sans", sans-serif;
@@ -157,4 +154,46 @@ nav ul li{
     font-size: 12px;
     font-weight: 500;
     max-width: 500px;
+}
+/* online games feature */
+
+.games{
+    display: flex;
+    gap: 20px;
+    padding: 0 140px;
+    flex-shrink: 0;
+}
+.card {
+    width: 350px;
+    height: 350px;
+}
+.card img{
+    /* width: 100%; */
+    height: 250px;
+    width: 200px; 
+}
+
+.game-title{
+    text-align: center;
+    margin-top: 40px ;
+    margin-bottom: 20px;
+}
+
+.play-instant{
+    display: flex;
+    padding: 0 140px;
+    gap: 50px;
+}
+
+.play-instant-description{
+    text-align: right;
+
+}
+.play-instant-description h1{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.play-instant-img{
+    width: 100%;
 }
