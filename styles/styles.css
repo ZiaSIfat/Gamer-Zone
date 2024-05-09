@@ -1,0 +1,45 @@
+.clr-secondary{
+    color:  #FF42A5;
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo-sec{
+    display: flex;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 30px; 
+    
+}
+.nav-logo{
+    width: 86px;
+    height: 40px;
+    margin-top:45px;
+    margin-right: 5px;
+}
+.follow-btn{
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+.youtube{
+    color: red;
+}
