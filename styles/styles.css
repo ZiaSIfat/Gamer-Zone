@@ -263,6 +263,7 @@ nav ul li{
 .career-description-div{
     font-size: 12px;
     width: 400px;
+    width: 100%;
     
 }
 .career-btn{
@@ -279,6 +280,7 @@ nav ul li{
     gap: 50px;
     width: 400px;
     font-size: 12px;
+    width: 100%;
 }
 .career-country{
     text-align: right;
@@ -375,6 +377,7 @@ footer{
 }
 
 @media screen and (max-width: 576px) {
+    
     nav ul,
     .banner1,
     .banner-2,
