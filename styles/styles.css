@@ -74,7 +74,8 @@ nav ul li{
     margin-right: 5px;
 }
 .follow-btn{
-    padding: 10px;
+    width: 100%;
+    padding: 10px 20px;
     background-color: lightgrey;
     border-radius: 5px;
 }
@@ -165,9 +166,11 @@ nav ul li{
 }
 .card {
     position: relative;
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
+    max-height: 350px;
     overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 .card img{
     width: 100%;
@@ -179,7 +182,7 @@ nav ul li{
 .overlay{
     position: absolute;
     top: 0;
-    left: 0;
+     left: 0;
     width: 100%;
     height: 76%;
     border-radius: 5px;
@@ -359,4 +362,37 @@ footer{
     color:rgba(255, 255, 255, 0.60) ;
     font-size: 14px;
     text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    nav ul,
+    .banner1,
+    .banner-2,
+    .games{
+        flex-direction: column;
+    }
+    nav ul li{
+        margin-bottom: 10px;
+    }
+    header{
+        flex-direction: column;
+    }
+    .banner-title2{
+        font-size: 45px;
+    }
+    .banner1{
+        gap: 80px;
+    }
+    .banner-img-content2 img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-description2{
+        text-align: center;
+    }
+    .card{
+       
+    }
 }
